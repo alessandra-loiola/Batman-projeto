@@ -55,6 +55,13 @@ li:hover {
 }
 
 #bloco {
+    width: 50%;
+    height: 100%;
+    padding-top: 15px;
+    justify-content: space-around;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,18 +180,18 @@ span {
     } 
 
     #bloco-image {
+        height: 100vh;
         display: flex;
         flex-direction: column;
     }
-    .image {
-       width: 100%;
-       height: auto;
+    #image {
+        width: 100%;
+        margin-bottom: 20px;
     }
 
     #bloco {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 100%;
+        padding: 0 10px;
     }
 
 

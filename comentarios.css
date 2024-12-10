@@ -132,7 +132,7 @@ span {
     align-items: center;
 }
 
-@media(max-width:480px) {
+@media(max-width:768px) {
     .footer-navigation {
         display: block;
     }
@@ -142,8 +142,8 @@ span {
     } 
 
     .cards-content {
+        width: 80%;
         grid-template-columns: 1fr;
     }
+
 }
-
-

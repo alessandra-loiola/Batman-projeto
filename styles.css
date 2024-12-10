@@ -144,7 +144,7 @@ li:hover {
 }
 
 .banner-1 {
-    background-image: url('https://noticiasdatv.uol.com.br/media/_versions/artigos_2021/batman-robert-pattinson-foto-divulgacao-warner-bros_fixed_large.jpg');
+    background-image: url('./assets/robert.png');
 }
 
 .banner-2 {
@@ -200,13 +200,13 @@ span {
     }
 
     .content {
-        width: 95%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
     .trailer {
-        width: 100%;
+        width: 95%;
     }
 
     #sinopse {
@@ -217,11 +217,11 @@ span {
     }
 
     .description {
-        width: 100%;
+        width: 95%;
     }
 
     .button {
-        width: 100%;
+        width: 90%;
         margin-top: 30px;
     }
 
